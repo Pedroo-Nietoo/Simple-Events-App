@@ -14,7 +14,7 @@ const App = () => {
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="SignIn" component={Login} options={{ headerShown: false }}/>
         <Stack.Screen name="SignUp" component={Cadastro} options={{ headerShown: false }}/>
-        <Stack.Screen name="Home" component={Home} options={{ headerBackVisible: false }}/>
+        <Stack.Screen name="Home" component={Home} options={{ headerBackVisible: false, headerTitle: 'Simple Events', headerTitleStyle: { color: 'green' } }}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

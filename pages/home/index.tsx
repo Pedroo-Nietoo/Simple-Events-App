@@ -4,9 +4,10 @@ import { BottomNavigation, Text } from 'react-native-paper';
 import { View, StyleSheet } from 'react-native';
 import Login from '../auth/sign-in';
 import Cadastro from '../auth/sign-up';
+import EventsComponent from '../events';
 
 const MyEventsRoute = () => <Text>Meus Eventos</Text>;
-const EventsRoute = () => <Text>Todos os Eventos</Text>;
+const EventsRoute = () => <EventsComponent />;
 const ProfileRoute = () => <Text>Meu Perfil</Text>;
 
 const Home = () => {
